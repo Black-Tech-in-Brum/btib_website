@@ -31,11 +31,11 @@ connecting Strapi and the client side of the website
 All 'visual' data can be easily modified by publishing directly from the Strapi user admin.
 You can learn more about Strapi here. <a href="https://strapi.io/">Strapi</a>
 To add Strapi in the current project 
-🎯 Step1: open the terminal
-🎯 Step 2: Go to the project directory 
-🎯 Step3: Install strapi by running this command on your project directory *npx create-strapi-app@latest my-project*
-🎯 Step4: run npm develop 
-🎯 step5: on local host *http://localhost:1337/* enter email and password 
+- 🎯 Step1: open the terminal
+- 🎯 Step 2: Go to the project directory 
+- 🎯 Step3: Install strapi by running this command on your project directory *npx create-strapi-app@latest my-project*
+- 🎯 Step4: run npm develop 
+- 🎯 step5: on local host *http://localhost:1337/* enter email and password 
 
 
 ##### BTIB WEB TEAM
