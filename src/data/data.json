@@ -1,0 +1,74 @@
+{
+    "Header": {
+      "title": "Ouakhila Torou",
+      "paragraph": "I am a Junior Software Developer, Travel Photographer and part time content creator."
+    },
+    "About": {
+      "paragraph": "Hello! My name is Ouakhila. Wakila is the correct pronunciation. I am a computer science student from the Benin Republic studying in the United Kingdom. I am very interested in visual arts. I'll walk you through all of my storytelling videos as a content creator, as well as any significant events in my life.",
+      "Why": [
+        "Lorem ipsum dolor",
+        "Tempor incididunt",
+        "Lorem ipsum dolor",
+        "Incididunt ut labore"
+      ],
+      "Why2": [
+        "Aliquip ex ea commodo",
+        "Lorem ipsum dolor",
+        "Exercitation ullamco",
+        "Lorem ipsum dolor"
+      ]
+    },
+    "Membership": [
+      {
+        
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+    
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+     
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+       
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+    
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      }
+    ],
+    "Event": [
+      {
+        "img": "img/testimonials/01.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
+     
+      },
+      {
+        "img": "img/testimonials/02.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
+     
+      },
+      {
+        "img": "img/testimonials/03.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
+      
+      },
+      {
+        "img": "img/testimonials/04.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
+   
+      }
+      
+    ]
+   
+   
+  }
+  
