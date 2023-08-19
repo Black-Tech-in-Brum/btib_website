@@ -5,84 +5,88 @@
 /* Font family definitions */
 /* Atyp-Display-Medium-Italic */
 @font-face {
-  font-family: "Atype Display";
-  src: url("./assets/fonts/Atyp-Display-Medium-Italic.woff2") format("woff2"),
-    url("./assets/fonts/Atyp-Display-Medium-Italic.otf") format("opentype");
+  font-family: 'Atype Display';
+  src:
+    url('./assets/fonts/Atyp-Display-Medium-Italic.woff2') format('woff2'),
+    url('./assets/fonts/Atyp-Display-Medium-Italic.otf') format('opentype');
   font-weight: normal;
   font-style: italic;
 }
 
 /* Atyp-Display-Medium */
 @font-face {
-  font-family: "Atype Display";
-  src: url("./assets/fonts/Atyp-Display-Medium.woff2") format("woff2"),
-    url("./assets/fonts/Atyp-Display-Medium.otf") format("opentype");
+  font-family: 'Atype Display';
+  src:
+    url('./assets/fonts/Atyp-Display-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Atyp-Display-Medium.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 /* Atyp-Display-Semibold-Italic */
 @font-face {
-  font-family: "Atype Display";
-  src: url("./assets/fonts/Atyp-Display-Semibold-Italic.woff2") format("woff2"),
-    url("./assets/fonts/Atyp-Display-Semibold-Italic.otf") format("opentype");
+  font-family: 'Atype Display';
+  src:
+    url('./assets/fonts/Atyp-Display-Semibold-Italic.woff2') format('woff2'),
+    url('./assets/fonts/Atyp-Display-Semibold-Italic.otf') format('opentype');
   font-weight: 600;
   font-style: italic;
 }
 
 /* Atyp-Display-Semibold */
 @font-face {
-  font-family: "Atype Display";
-  src: url("./assets/fonts/Atyp-Display-Semibold.woff2") format("woff2"),
-    url("./assets/fonts/Atyp-Display-Semibold.otf") format("opentype");
+  font-family: 'Atype Display';
+  src:
+    url('./assets/fonts/Atyp-Display-Semibold.woff2') format('woff2'),
+    url('./assets/fonts/Atyp-Display-Semibold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 /* Satoshi-Bold */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-Bold.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 /* Satoshi-BoldItalic */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-BoldItalic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-BoldItalic.otf') format('opentype');
   font-weight: bold;
   font-style: italic;
 }
 
 /* Satoshi-Italic */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-Italic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Italic.otf') format('opentype');
   font-weight: normal;
   font-style: italic;
 }
 
 /* Satoshi-Medium */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-Medium.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 /* Satoshi-MediumItalic */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-MediumItalic.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-MediumItalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
 }
 
 /* Satoshi-Regular */
 @font-face {
-  font-family: "Satoshi";
-  src: url("./assets/fonts/Satoshi-Regular.otf") format("opentype");
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
