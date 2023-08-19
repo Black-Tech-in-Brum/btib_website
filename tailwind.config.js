@@ -38,6 +38,7 @@ export default {
       fontSize: {
         xxs: ['0.625rem', '1rem'],
         '5/2xl': ['1.75rem', '2.25rem'],
+        '5/4xl': ['2.75rem', '3.25rem'],
       },
     },
     screens: {

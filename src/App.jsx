@@ -6,7 +6,7 @@ import About from './components/About'
 import Event from './components/Event'
 import Membership from './components/Membership'
 import JoinDiscord from './components/JoinDiscord'
-import ContactUs from './components/ContactUs'
+import ContactUs from './components/contact-us'
 
 export default function App() {
   return (
