@@ -27,6 +27,7 @@ export default {
       },
       backgroundImage: {
         'noise-gradient': "url('/img/noise-gradient.png')",
+        'noise-gradient-small': "url('/img/noise-gradient-small.jpeg')",
       },
       backgroundSize: {
         full: '100% 100%',
