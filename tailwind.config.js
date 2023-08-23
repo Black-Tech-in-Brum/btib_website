@@ -29,7 +29,7 @@ export default {
         'noise-gradient': "url('/img/noise-gradient.png')",
       },
       backgroundSize: {
-        '100%': '100%',
+        full: '100% 100%',
       },
       fontFamily: {
         atype: ['Atype Display', 'sans-serif'],
