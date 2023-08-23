@@ -1,7 +1,7 @@
 import { ReactComponent as Scribble } from "@assets/icons/scribble.svg";
 import { ReactComponent as CircleArrowUp } from "@assets/icons/circle-arrow-up.svg";
-import { ReactComponent as LinkedIn } from "@assets/icons/linkedin.svg";
-import { ReactComponent as Discord } from "@assets/icons/discord.svg";
+import { ReactComponent as LinkedIn } from "@assets/icons/linkedin-large.svg";
+import { ReactComponent as Discord } from "@assets/icons/discord-large.svg";
 function Footer() {
   return (
     <footer className="flex flex-wrap justify-between w-full min-h-96 bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 pt-12 px-6 sm:px-24 pb-2">
