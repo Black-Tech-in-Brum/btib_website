@@ -2,28 +2,44 @@
   {
     "id": "100",
     "name": "icon1",
-    "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Techpreneurs",
+    "benefitDesc": "Our community offers a supportive environment for tech innovators and entrepreneurs to showcase their projects, gain exposure, and access funding options to fuel their ventures."
   },
   {
     "id": "101",
     "name": "icon2",
-    "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Job Seekers",
+    "benefitDesc":"Job seekers can leverage the resources and networking opportunities and connect with industry professionals who can provide quidance and support in their job search endeavours."
   },
   {
     "id": "102",
     "name": "icon3",
-    "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80"
+    "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80",
+    "membersBenefit":"Tech Professionals",
+    "benefitDesc":"Tech professionals can benefit from networking events and workshops to further their careers, expand their knowledge, and connect with like-minded professionals."
   },
   {
     "id": "104",
     "name": "icon5",
-    "picture1": "https://images.unsplash.com/photo-1614890107637-fe96d74acf4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1614890107637-fe96d74acf4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Industry Leaders",
+    "benefitDesc":"Black Tech in Brum serves as a platform for industry leaders and influencers to share their insights, provide mentorship, and inspire the next generation of tech professionals."
   },
   {
     "id": "103",
     "name": "icon4",
-    "picture1": "https://images.unsplash.com/photo-1610473068514-276d33c606dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1610473068514-276d33c606dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Students",
+    "benefitDesc":"Black Tech in Brum provides networking opportunities and mentorship to support the growth and development of students and those starting their journey in the tech industry"
+  },
+
+  {
+    "membersBenefit":"Parents",
+    "benefitDesc":"Parents can rely on the supportive community to gain insights on how to nurture their children's interests and access ressources that can help them navigate their children's tech journeys."
   }
  
+
 
 ]
