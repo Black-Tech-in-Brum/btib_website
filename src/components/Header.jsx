@@ -17,7 +17,7 @@ function Header () {
                 <br/>Lead, and Shape the Future. </p>
               </div>
       
-        <div className="container gap-2 grid grid-cols-[400px_400px_500px_400px_400px] p-12 overflow-auto"> 
+        <div className="md:containermd:overflow-hidden pr-20 pl-20 gap-2 grid grid-cols-[320px_350px_400px_350px_320px] p-12  "> 
         { datas && datas.map(({picture1,id}) => (
           <div key={id} className="">   
            <img src={picture1} className="rounded-3xl overflow-hidden"/>
