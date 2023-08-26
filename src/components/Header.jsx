@@ -10,16 +10,17 @@ function Header () {
         <div className=" p-6 ">
                 <div className="text-center p-11">
                 <h1 className="text-6xl font-bold font-satoshi capitalize text-white"> Black Tech in Brum </h1>
-                <div className="flex items-center justify-center">
-                <Scribble className=""></Scribble>
+                <div className="flex items-center justify-center ">
+                <Scribble className="w-181"/>
                 </div>
-                <p className="text-xl font-satoshi text-white"> Empowering Black Techies in Birmingham to Innovate Lead, and Shape the Future. </p>
+                <p className="text-center text-3xl font-satoshi text-white"> Empowering Black Techies in Birmingham to Innovate 
+                <br/>Lead, and Shape the Future. </p>
               </div>
       
-        <div className="mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-[400px_400px_500px_400px_400px]"> 
+        <div className=" gap-2 grid grid-cols-[400px_400px_500px_400px_400px] p-12 overflow-auto"> 
         { datas && datas.map(({picture1,id}) => (
           <div key={id} className="">   
-           <img src={picture1} className="rounded-3xl"/>
+           <img src={picture1} className="rounded-3xl overflow-hidden"/>
           </div>
 
         ))
