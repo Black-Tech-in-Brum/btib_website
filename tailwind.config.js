@@ -39,6 +39,7 @@ export default {
       fontSize: {
         xxs: ['0.625rem', '1rem'],
         '5/2xl': ['1.75rem', '2.25rem'],
+        '5/4xl': ['2.75rem', '3.25rem'],
       },
       shadow: {
         overlap: '0px 2px 10px 0px rgba(22, 17, 40, 0.05)',
