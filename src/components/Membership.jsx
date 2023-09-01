@@ -17,7 +17,7 @@ function Header () {
       
         <div className="container overflow-y-scroll no-scrollbar mx-auto gap-6 grid grid-cols-[400px_400px_400px_400px_400px_400px] p-12  "> 
         { datas && datas.map(({benefitDesc,membersBenefit,id}) => (
-          <div key={id} className="bg-gray-100 rounded-3xl py-6 hover:bg-red-500 hover:text-white">   
+          <div key={id} className="bg-gray-100 rounded-3xl py-6 hover:bg-primary-200 hover:text-white">   
            <h1  className="text-center text-2xl font-satoshi font-bold py-4"> {membersBenefit}</h1>
            <p className="text-center font-satoshi text-xl pb-9 px-6">{benefitDesc}</p>
           </div>
@@ -26,7 +26,7 @@ function Header () {
       }
           </div>
           <div className="flex items-center justify-center">
-          <button className=" mt-10 block rounded-lg bg-red-500 px-12 py-3 font-satoshi font-bold text-white">    
+          <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold text-white">    
                    <a href="#" className="">Become a member</a>
               </button>
           </div>
