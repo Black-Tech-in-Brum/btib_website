@@ -1,38 +1,13 @@
-# BTIT LANDING PAGE
+# Black Tech in Brum Website
 
-# 🛎️🛎️ WELCOME TO BTIB Landing page README Folder
+Built with Vite, React, and Tailwind.
 
-## Description
+## Setup
 
-This is a ReactJS-based landing page template based on the UX team design that you can find here. <a href="https://www.figma.com/file/QhB2pdyTcwQamr8i53LnEi/BTIB-Website-project?type=design&node-id=2-432&mode=design&t=lzX2D6V3h0B3OSpK-0">UX DESIGN</a>
-In a component folder, you will find all components with a starter code.
-
-### Add BTIB data
-
-There is a JSON file in the data folder with dummy data that is subject to change based on the BTIB landing page.
-
-### Clone Files
-
-After cloning the files, you will have to go to btibWebsite and run `npm install` then `npm develop`
-
-##### TALWIND CSS CHEAT SHEET
-
-<a href="https://tailwindcomponents.com/cheatsheet/">TalwindCSS</a>
-
-## StrapiServer Folder ( Open to another suggestion of a headless CMS 😊😊)
-
-This folder is for future use.
-
-connecting Strapi and the client side of the website
-
-All 'visual' data can be easily modified by publishing directly from the Strapi user admin.
-You can learn more about Strapi here. <a href="https://strapi.io/">Strapi</a>
-To add Strapi in the current project
-
-- 🎯 Step1: open the terminal
-- 🎯 Step 2: Go to the project directory
-- 🎯 Step3: Install strapi by running this command on your project directory _npx create-strapi-app@latest my-project_
-- 🎯 Step4: run npm develop
-- 🎯 step5: on local host _http://localhost:1337/_ enter email and password
-
-##### BTIB WEB TEAM
+1. Install a CLI package manager for your machine. We recommend [yarn](https://yarnpkg.com/) or [npm](https://docs.npmjs.com/cli/v8/configuring-npm/install).
+2. Navigate to this project's root directory, i.e `cd btib_website`.
+3. Create a new environment variable file for local testing, i.e. `.env.local`. Copy the contents of `.env` into this new file. **Under no circumstances should your local file or its contents be shared with other people.** Ask on the Discord website channel for variable values.
+4. Run the install command for your CLI package manager, i.e. `yarn install` or `npm install`
+5. To set up the CMS on your local machine, open another shell and follow the setup instructions [here](https://github.com/Black-Tech-in-Brum/btib_cms)
+6. Finally, start the application server with the `dev` script, i.e. `yarn dev` or `npm run dev`.
+7. Access the site at http://localhost:5173/
