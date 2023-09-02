@@ -1,24 +1,33 @@
-import Navbar from './components/navbar'
-// import { Routes, Route } from "react-router-dom"
-import Footer from './components/footer'
-import Header from './components/Header'
-import About from './components/About'
-import Event from './components/Event'
-import Membership from './components/Membership'
-import JoinDiscord from './components/JoinDiscord'
-import ContactUs from './components/ContactUs'
+import { useState } from 'react'
+import useStrapiData from '@hooks/useStrapiData'
+import Navbar from '@components/navbar'
+import Footer from '@components/footer'
+import SocialMediaContext from '@contexts/socialMediaContext'
 
 export default function App() {
+  const { links, footer, socialMedia, isLoading, strapiErrors } = useStrapiData(['menu', 'footer', 'social-media'])
+  const [serverError, setServerError] = useState(false)
+  
+  Object.values(strapiErrors).forEach((error) => {
+    if(error.response.status >= 500) setServerError(true)
+  })
+
+  // TODO: Splash/skeleton screen
+  if (isLoading) {
+    return <div>Loading...</div>
+  }
+
+  // TODO: Error Pages
+  if (serverError) {
+    return <div>The server is down. Please try again later.</div>
+  }
+
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <About />
-      <Membership />
-      <Event />
-      <JoinDiscord />
-      <ContactUs />
-      <Footer />
-    </div>
+    <SocialMediaContext.Provider value={socialMedia}>
+      <div className='relative'>
+        <Navbar links={links} />
+        <Footer text={footer} />
+      </div>
+    </SocialMediaContext.Provider>
   )
 }
