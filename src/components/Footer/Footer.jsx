@@ -10,7 +10,7 @@ import { PropTypes } from 'prop-types'
 function Footer({ text }) {
   const socialMedia = useContext(SocialMediaContext)
   return (
-    <footer className="relative top-[92vh] min-h-96 flex w-full flex-wrap justify-between bg-secondary-300 bg-noise-gradient-small bg-full px-5 pb-6 pt-12 text-neutral-100 bg-blend-hard-light md:bg-noise-gradient md:px-24 md:pb-2 md:items-start">
+    <footer className="min-h-96 flex w-full flex-wrap justify-between bg-secondary-300 bg-noise-gradient-small bg-full px-5 pb-6 pt-12 text-neutral-100 bg-blend-hard-light md:bg-noise-gradient md:px-24 md:pb-2 md:items-start">
       <div className="order-first w-1/2">
         <h2 className="font-satoshi font-bold md:text-lg">
           Black Tech in Brum

@@ -26,7 +26,7 @@ export default defineConfig({
       },
       {
         find: '@layouts',
-        replacement: fileURLToPath(new URL('./src/hooks', import.meta.url)),
+        replacement: fileURLToPath(new URL('./src/layouts', import.meta.url)),
       },
       {
         find: '@components',

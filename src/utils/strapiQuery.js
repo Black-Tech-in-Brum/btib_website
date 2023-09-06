@@ -11,8 +11,9 @@ const axiosHeaders = {
 
 const pageFields = [
   'title',
-  'underlineTitle',
   'description',
+  'slug',
+  'underlineTitle',
   'useGradientNoiseBackground',
 ]
 
@@ -65,6 +66,9 @@ async function getPages(pagesFilter) {
     },
     fields: pageFields,
     populate: {
+      desktopBubbleImages: {
+        populate: '*'
+      },
       components: {
         populate: '*',
       },
@@ -97,6 +101,7 @@ async function getSpaLanding() {
       pages: {
         fields: pageFields,
         populate: [
+          'desktopBubbleImages',
           'components',
           'components.images',
           'components.sections',

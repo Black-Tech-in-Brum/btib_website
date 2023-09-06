@@ -3,9 +3,10 @@ import useStrapiData from '@hooks/useStrapiData'
 import Navbar from '@components/navbar'
 import Footer from '@components/footer'
 import SocialMediaContext from '@contexts/socialMediaContext'
+import SpaLandingLayout from '@layouts/SpaLandingLayout'
 
 export default function App() {
-  const { links, footer, socialMedia, isLoading, strapiErrors } = useStrapiData(['menu', 'footer', 'social-media'])
+  const { spaPages, links, footer, socialMedia, isLoading, strapiErrors } = useStrapiData(['spaLanding', 'menu', 'footer', 'social-media'])
   const [serverError, setServerError] = useState(false)
   
   Object.values(strapiErrors).forEach((error) => {
@@ -26,6 +27,7 @@ export default function App() {
     <SocialMediaContext.Provider value={socialMedia}>
       <div className='relative'>
         <Navbar links={links} />
+        <SpaLandingLayout pages={spaPages} />
         <Footer text={footer} />
       </div>
     </SocialMediaContext.Provider>

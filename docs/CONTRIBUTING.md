@@ -48,7 +48,7 @@ All props passed to the icon component will be passed to the SVG element in the 
 
 ### Layouts and other categories
 
-If a component is being used to wrap other components, it can be considered a layout. In this case, the layout should be stored in `src/layouts`. Likewise, if it is solely a hook to be used by other components, it should be stored in `src/hooks` and if it is a utility function, it should be stored in `src/utils`. If you see fit to add another category of code, the folder for this category should be stored in `src`. The alias for this new folder should be added in `vite.config.js`.
+If a component is being used to wrap other components, it can be considered a layout. In this case, the layout should be stored in `src/layouts`. As it is only a layout, it should not be nested in its own folder. Likewise, if it is solely a hook to be used by other components, it should be stored in `src/hooks` and if it is a utility function, it should be stored in `src/utils`. If you see fit to add another category of code, the folder for this category should be stored in `src`. The alias for this new folder should be added in `vite.config.js`.
 
 ```js
 import { defineConfig } from 'vite'

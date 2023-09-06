@@ -20,7 +20,7 @@ function useStrapiData(queries) {
 	const [isLoading, setIsLoading] = useState(true)
 
 	useEffect(() => {
-		queries.forEach(async(query) => {
+		queries.forEach(async(query, index) => {
 			try {
 				// TODO: Type guard queries with custom types
 				if (query === 'menu') {
@@ -39,7 +39,7 @@ function useStrapiData(queries) {
 			} catch(e) {
 				console.log(e)
 			} finally {
-				setIsLoading(false)
+				index === queries.length - 1 && setIsLoading(false)
 			}
 		})
 	// eslint-disable-next-line react-hooks/exhaustive-deps

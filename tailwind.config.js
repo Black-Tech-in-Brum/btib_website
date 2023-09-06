@@ -38,6 +38,8 @@ export default {
       },
       fontSize: {
         xxs: ['0.625rem', '1rem'],
+        xl: ['1.25rem', '2rem'],
+        "2xl": ['1.5rem', '2.25rem'],
         '5/2xl': ['1.75rem', '2.25rem'],
       },
       shadow: {
