@@ -26,7 +26,7 @@ export default function App() {
   return (
     <SocialMediaContext.Provider value={socialMedia}>
       <div className='relative'>
-        <Navbar links={links} />
+        {links && <Navbar links={links} />}
         <SpaLandingLayout pages={spaPages} />
         <Footer text={footer} />
       </div>

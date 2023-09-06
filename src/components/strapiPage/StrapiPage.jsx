@@ -25,7 +25,7 @@ function StrapiPage({
  }) {
   const ComponentsCol = () => {
     return (
-      <div className="z-10 my-10">
+      <div className="z-10 my-10 w-full flex flex-col items-center gap-8 md:gap-[72px]">
         {components &&
           components.map((component, index) => {
             const ComponentToRender = strapiComponents[component.__component]
@@ -44,13 +44,13 @@ function StrapiPage({
   }
 
   return (
-    <section id={slug && slug.split('/')[1]} className={`relative flex justify-center items-center w-full ${useGradientNoiseBackground ? "py-16 bg-secondary-300 bg-noise-gradient-small bg-full bg-blend-hard-light md:bg-noise-gradient text-neutral-100" : "text-neutral-500"}`}>
+    <section id={slug && slug.split('/')[1]} className={`relative flex flex-col justify-center items-center w-full ${useGradientNoiseBackground ? "py-16 bg-secondary-300 bg-noise-gradient-small bg-full bg-blend-hard-light md:bg-noise-gradient text-neutral-100" : "text-neutral-500"}`}>
       {desktopBubbleImages && <StrapiBubbleImages images={desktopBubbleImages}/>}
       <div className="text-center w-full md:max-w-2xl my-6 md:my-10 z-10">
         <StrapiHeading title={title} underlineTitle={underlineTitle} />
         {description && <p className="font-satoshi text-center text-xl md:text-2xl mt-5 px-5">{description}</p>}
-        <ComponentsCol />
       </div>
+      <ComponentsCol />
     </section>
   )
 }

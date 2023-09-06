@@ -1,5 +1,8 @@
 import { PropTypes } from 'prop-types'
 import { Link } from 'react-router-dom'
+import {
+  useState
+} from 'react'
 
 import { getTextContrastColor } from '@utils/colorContrast'
 
@@ -9,19 +12,32 @@ function Button({
   color, 
   eventColor, 
  }) {
-  const textColorClassName = color ? getTextContrastColor(color) : "text-neutral-100"
-  const eventTextColorClassName = eventColor ? getTextContrastColor(eventColor) : textColorClassName
-  const eventClassName = eventColor ? `hover:bg-[${eventColor}] focus-visible:bg-[${eventColor}] hover:${eventTextColorClassName} focus-visible:${eventTextColorClassName}` : "hover:bg-primary-100 focus-visible:bg-primary-100"
-  const className = `mx-auto block rounded-lg ${color ? `bg-[${color}]` : "bg-primary-200"} ${textColorClassName} px-4 py-3 font-satoshi font-bold text-neutral-100 ${eventClassName}`
+
+  const [buttonStyle, setButtonStyle] = useState({
+    background: color,
+    color: getTextContrastColor(color)
+  })
+
+  const eventButtonStyle = () => setButtonStyle({
+    background: eventColor,
+    color: getTextContrastColor(eventColor)
+  })
+
+  const resetStyle = () =>  setButtonStyle({
+    background: color,
+    color: getTextContrastColor(color)
+  })
+
+  const className = `mx-auto block rounded-lg px-4 py-3 font-satoshi font-bold ${color ? "" : "bg-primary-200 text-neutral-100"} ${eventColor ? "" : "hover:bg-primary-100 focus-visible:bg-primary-100 text-neutral-100"}`
   
   if (link) {
-    <Link className={className} href={link}>
+    <Link className={className} style={buttonStyle} onMouseOver={eventButtonStyle} onMouseOut={resetStyle} onFocus={eventButtonStyle} onBlur={resetStyle} href={link}>
       {text}
     </Link>
   }
 
   return (
-    <button className={className}>
+    <button className={className} style={buttonStyle} onMouseOver={eventButtonStyle} onMouseOut={resetStyle} onFocus={eventButtonStyle} onBlur={resetStyle}>
       {text}
     </button>
   )

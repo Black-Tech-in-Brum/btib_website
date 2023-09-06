@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import PropType from 'prop-types'
+
+const strapiUrl = import.meta.env.VITE_REACT_APP_STRAPI_URL ?? ''
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0)
 

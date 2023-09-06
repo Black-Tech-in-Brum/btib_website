@@ -105,6 +105,7 @@ async function getSpaLanding() {
           'components',
           'components.images',
           'components.sections',
+          'components.sections.image',
           'components.button',
           'components.cards',
         ],
