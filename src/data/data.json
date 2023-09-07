@@ -2,17 +2,29 @@
   {
     "id": "100",
     "name": "icon1",
-    "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "event": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse"
   },
   {
     "id": "101",
     "name": "icon2",
-    "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+    "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "event": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse"
   },
   {
     "id": "102",
     "name": "icon3",
-    "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80"
+    "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80",
+    "event": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse"
   },
   {
     "id": "104",
