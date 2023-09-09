@@ -17,7 +17,7 @@ function Header () {
                 <br/>Lead, and Shape the Future. </p>
               </div>
       
-        <div className="container overflow-auto py-12 py-20 gap-2 grid grid-cols-[320px_350px_400px_350px_320px] py-12 "> 
+        <div className="container overflow-auto sm:container sm:overflow-auto py-12 py-20 gap-2 md:grid-cols-[320px_350px_400px_350px_320px] sm:grid grid-cols-[0px_0px_650px_0px_0px] py-12 "> 
         { datas && datas.map(({picture1,id}) => (
           <div key={id} className="">   
            <img src={picture1} className="rounded-3xl overflow-hidden"/>
@@ -26,8 +26,8 @@ function Header () {
         ))
       }
           </div>
-          <div className="flex items-center justify-center">
-          <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold">    
+          <div className="flex items-center justify-center py-12">
+          <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold ">    
                    <a href="#" className="">Learn More</a>
               </button>
           </div>

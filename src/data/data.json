@@ -3,7 +3,7 @@
     "id": "100",
     "name": "icon1",
     "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
-    "meetUps": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "meetUps": "",
     "meetUpsID": "11",
     "eventTitle": "Breaking Barriers:",
     "eventDesc": "Black Tech in Brum Meet up",
@@ -19,7 +19,7 @@
     "id": "101",
     "name": "icon2",
     "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
-    "meetUps": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "meetUps": "",
     "meetUpsID": "12",
     "eventTitle": "Breaking Barriers:",
     "eventDesc": "Black Tech in Brum Meet up",
@@ -35,7 +35,7 @@
     "id": "102",
     "name": "icon3",
     "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80",
-    "meetUps": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "meetUps": "",
     "meetUpsID": "13",
     "eventTitle": "Breaking Barriers:",
     "eventDesc": "Black Tech in Brum Meet up",
@@ -43,8 +43,8 @@
     "eventButton": "Coming soon",
     "membersBenefit":"Tech Professionals",
     "benefitDesc":"Tech professionals can benefit from networking events and workshops to further their careers, expand their knowledge, and connect with like-minded professionals.",
-    "AboutImgThree" :"",
-    "AboutImgDescThree" :""
+    "aboutImgThree" :"https://images.unsplash.com/photo-1622295023876-0cdf583c41f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2969&q=80",
+    "aboutImgDescThree" :"Looking ahead, we are dedicated to expanding our impact. We have an array of exciting plans in the pipeline, including the development of a job board, actively pursuing funding opportunities and developing a mentorship program to name a few. With these initiatives, we aim to foster a vibrant ecosystem where every member of our community benefits from valuable connections and resources. Together, we are paving the way for a brighter future in the world of Black tech in Birmingham!"
   },
   {
     "id": "104",

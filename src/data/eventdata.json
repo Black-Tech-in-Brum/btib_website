@@ -1,0 +1,28 @@
+[
+    {
+        "meetUps": "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2969&q=80",
+        "meetUpsID": "11",
+        "eventTitle": "Breaking Barriers:",
+        "eventDesc": "Black Tech in Brum Meet up",
+        "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+        "eventButton": "More details"
+
+    },
+    {
+        "meetUps": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2970&q=80",
+        "meetUpsID": "12",
+        "eventTitle": "Breaking Barriers:",
+        "eventDesc": "Black Tech in Brum Meet up",
+        "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+        "eventButton": "Coming soon"
+    },
+    {
+        "meetUps": "https://images.unsplash.com/photo-1507537509458-b8312d35a233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2970&q=80",
+        "meetUpsID": "13",
+        "eventTitle": "Breaking Barriers:",
+        "eventDesc": "Black Tech in Brum Meet up",
+        "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+        "eventButton": "Coming soon"
+
+    }
+]
