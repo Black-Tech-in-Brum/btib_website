@@ -6,7 +6,7 @@ import datas from "../data/data.json"
 function Header () {
 
     return (
-        <header className="flex justify-center bg-blue-600 items-center w-screen bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 pt-12 pb-2">
+        <header className="flex justify-center bg-blue-600 items-center w-auto lg:w-screen bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 pt-12 pb-2">
         <div className="">
                 <div className="text-center">
                 <h1 className="text-6xl font-bold font-satoshi capitalize text-white"> Black Tech in Brum </h1>
@@ -17,7 +17,7 @@ function Header () {
                 <br/>Lead, and Shape the Future. </p>
               </div>
       
-        <div className="container overflow-auto sm:container sm:overflow-auto py-12 py-20 gap-2 md:grid-cols-[320px_350px_400px_350px_320px] sm:grid grid-cols-[0px_0px_650px_0px_0px] py-12 "> 
+        <div className=" overflow-auto md:container md:overflow-auto py-12 py-20 gap-2 md:grid-cols-[320px_350px_400px_350px_320px] grid grid-cols-[0px_0px_350px_0px_0px] py-12 "> 
         { datas && datas.map(({picture1,id}) => (
           <div key={id} className="">   
            <img src={picture1} className="rounded-3xl overflow-hidden"/>

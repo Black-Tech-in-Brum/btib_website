@@ -46,8 +46,8 @@ function About() {
       { datas && datas.map(({aboutImgOne, id, aboutImgDescOne}) => (
         <div key={id} className="md:grid-cols-2 sm:grid grid-cols-1 gap-10 rounded-3xl justify-items-center ">
           
-       <p1 className="text-align-left font-satoshi md:text-xl text-wrap sm:text-xl">{aboutImgDescOne}</p1>
-       <img src={aboutImgOne} className="rounded-3xl"/>
+       <p1 className="lg:py-auto text-align-left font-satoshi md:text-xl text-wrap sm:text-xl">{aboutImgDescOne}</p1>
+       <img src={aboutImgOne} className="mt-10 lg:mt-0 rounded-3xl"/>
         </div>
       ))}
       </div>

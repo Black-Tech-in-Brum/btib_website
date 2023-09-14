@@ -18,7 +18,7 @@ function Event() {
 <div className=" gap-6 md:grid-cols-[400px_400px_400px] sm:grid grid-cols-1 p-12 "> 
 { datas &&
  datas.map(({meetUps,id, eventTitle,eventDesc,eventDate,eventButton}) => (
-  <div key={id} className="bg-gray-100 rounded-3xl ">  
+  <div key={id} className="mt-10 lg:mt-0 bg-gray-100 rounded-3xl ">  
   <img src={meetUps} className="rounded-xl"/> 
    <h1  className="text-center text-2xl font-satoshi font-bold py-2"> {eventTitle} </h1>
    <h2 className="text-center text-xl font-satoshi font-bold ">{eventDesc}</h2>
