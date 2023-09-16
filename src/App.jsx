@@ -1,4 +1,4 @@
- import Navbar from './components/Navbar/Navbar'
+//  import Navbar from './components/Navbar'
 // import { Routes, Route } from "react-router-dom"
 import Footer from './components/footer'
 import Header from './components/Header'
@@ -11,7 +11,7 @@ import ContactUs from './components/contactUs/ContactUs'
 export default function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <About />
       <Membership />
