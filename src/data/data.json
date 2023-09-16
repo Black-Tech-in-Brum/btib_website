@@ -1,61 +1,69 @@
-{
-  "Header": {
-    "title": "Ouakhila Torou",
-    "paragraph": "I am a Junior Software Developer, Travel Photographer and part time content creator."
+[
+  {
+    "id": "100",
+    "name": "icon1",
+    "picture1": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "meetUps": "",
+    "meetUpsID": "11",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+    "eventButton": "More details",
+    "membersBenefit":"Techpreneurs",
+    "benefitDesc": "Our community offers a supportive environment for tech innovators and entrepreneurs to showcase their projects, gain exposure, and access funding options to fuel their ventures.",
+    "aboutImgOne" :"https://images.unsplash.com/photo-1610818648166-c25a926453fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "aboutImgDescOne" :"Founded by Carla Brown, a Front End Developer, UX designer, and Co-Founder of Syncd:in. Black Tech in Brum is a initiative dedicated to serving, supporting, and fostering growth within the Black Tech community in Birmingham. With a strong focus on creating new opportunities, our organisation strives to empower individuals by providing resources, networking events, and support. Together, we aim to drive innovation, diversity, and success in the vibrant tech ecosystem of Birmingham."
+
   },
-  "About": {
-    "paragraph": "Hello! My name is Ouakhila. Wakila is the correct pronunciation. I am a computer science student from the Benin Republic studying in the United Kingdom. I am very interested in visual arts. I'll walk you through all of my storytelling videos as a content creator, as well as any significant events in my life.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+  {
+    "id": "101",
+    "name": "icon2",
+    "picture1": "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "meetUps": "",
+    "meetUpsID": "12",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+    "eventButton": "Coming soon",
+    "membersBenefit":"Job Seekers",
+    "benefitDesc":"Job seekers can leverage the resources and networking opportunities and connect with industry professionals who can provide quidance and support in their job search endeavours.",
+    "aboutImgTwo" :"https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2338&q=80",
+    "aboutImgDescTwo" :"Black Tech in Brum has made remarkable progress since its conception, successfully building a thriving community of over 200 individuals across various social media platforms. We have been actively hosting events that not only foster the growth of our community but also provide the essentials require. These events serve as valuable opportunities for networking. knowledge sharing, and collaboration, enabling us to collectively advance in our tech journeys."
+
   },
-  "Membership": [
-    {
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Event": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\""
-    }
-  ]
-}
+  {
+    "id": "102",
+    "name": "icon3",
+    "picture1": "https://images.unsplash.com/photo-1585078566678-8125fb3b0e81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2622&q=80",
+    "meetUps": "",
+    "meetUpsID": "13",
+    "eventTitle": "Breaking Barriers:",
+    "eventDesc": "Black Tech in Brum Meet up",
+    "eventDate": "July 20th, 18:30 - 21:30 | BCU STEAMhouse",
+    "eventButton": "Coming soon",
+    "membersBenefit":"Tech Professionals",
+    "benefitDesc":"Tech professionals can benefit from networking events and workshops to further their careers, expand their knowledge, and connect with like-minded professionals.",
+    "aboutImgThree" :"https://images.unsplash.com/photo-1622295023876-0cdf583c41f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2969&q=80",
+    "aboutImgDescThree" :"Looking ahead, we are dedicated to expanding our impact. We have an array of exciting plans in the pipeline, including the development of a job board, actively pursuing funding opportunities and developing a mentorship program to name a few. With these initiatives, we aim to foster a vibrant ecosystem where every member of our community benefits from valuable connections and resources. Together, we are paving the way for a brighter future in the world of Black tech in Birmingham!"
+  },
+  {
+    "id": "104",
+    "name": "icon5",
+    "picture1": "https://images.unsplash.com/photo-1614890107637-fe96d74acf4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Industry Leaders",
+    "benefitDesc":"Black Tech in Brum serves as a platform for industry leaders and influencers to share their insights, provide mentorship, and inspire the next generation of tech professionals."
+  },
+  {
+    "id": "103",
+    "name": "icon4",
+    "picture1": "https://images.unsplash.com/photo-1610473068514-276d33c606dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80",
+    "membersBenefit":"Students",
+    "benefitDesc":"Black Tech in Brum provides networking opportunities and mentorship to support the growth and development of students and those starting their journey in the tech industry"
+  },
+  {
+    "membersBenefit":"Parents",
+    "benefitDesc":"Parents can rely on the supportive community to gain insights on how to nurture their children's interests and access ressources that can help them navigate their children's tech journeys."
+  }
+ 
+
+]

@@ -1,36 +1,52 @@
+
+import datas from "../data/eventdata.json"
 function Event() {
+  
   return (
-    <section className="bg-black py-80">
-      <div className=" px-4 py-8 mx-auto">
-        <div className="place-self-center ">
-          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-            EVENT
-          </h1>
-          <p className="max-w-2xl mb-6 font-light text-white-500 dark:text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-          <a
-            href="#"
-            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
-            Get started
-          </a>
-          <a
-            href="#"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black-900 border border-black-300 rounded-lg hover:bg-black-100 focus:ring-4 focus:ring-gray-100 dark:text-black dark:border-gray-700 dark:hover:bg-black-700 dark:focus:ring-gray-800"
-          >
-            Next Event
-          </a>
+
+<div className="flex justify-center min-h-screen">
+<div className=" py-18">
+        <div className="text-center p-12">
+        <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black p-6"> Upcoming Events </h1>
+        <div className="flex items-center justify-center ">
+       
         </div>
+        <p className="text-center text-xl font-satoshi text-black"> At black tech in Brum, we host variety of engaging events throughout the year that
+        <br/>are open to the general public. Join us to be part of our inclusive community!</p>
       </div>
-    </section>
-  )
+
+<div className=" gap-6 md:grid-cols-[400px_400px_400px] sm:grid grid-cols-1 p-12 "> 
+{ datas &&
+ datas.map(({meetUps,id, eventTitle,eventDesc,eventDate,eventButton}) => (
+  <div key={id} className="mt-10 lg:mt-0 bg-gray-100 rounded-3xl ">  
+  <img src={meetUps} className="rounded-xl"/> 
+   <h1  className="text-center text-xl font-satoshi font-bold py-2"> {eventTitle} </h1>
+   <h2 className="text-center text-lg font-satoshi font-bold ">{eventDesc}</h2>
+   <h3  className="text-center text-lg font-satoshi ">{eventDate}</h3>
+   { eventButton == "More details" ?
+ <div className="flex items-center justify-center pb-10">
+ <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold text-white">    
+         {eventButton}
+     </button>
+ </div> :   <div className="flex items-center justify-center pb-10">
+ <button className=" mt-10 block rounded-lg bg-gray-400  px-12 py-3 font-satoshi font-bold text-white">    
+         {eventButton}
+     </button>
+ </div> 
+   }
+  
+  </div>
+
+
+))
 }
+  </div>
+
+  
+</div>
+</div>
+
+ )
+ }
 
 export default Event

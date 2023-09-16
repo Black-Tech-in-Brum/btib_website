@@ -1,30 +1,38 @@
-function Membership() {
-  return (
-    <section className="bg-white py-80">
-      <div className=" px-4 py-8 mx-auto">
-        <div className="place-self-center ">
-          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-black">
-            Become a member
-          </h1>
-          <p className="max-w-2xl mb-6 font-light text-black-500 dark:text-black-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-          <a
-            href="#"
-            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
-            Get started
-          </a>
+import datas from "../data/data.json"
+
+function Header () {
+    return (
+        <div className="flex justify-center min-h-screen">
+        <div className=" py-18">
+                <div className="text-center p-12">
+                <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black p-2"> Who Can Benefit? </h1>
+                <div className="flex items-center justify-center ">
+               
+                </div>
+                <p className="text-center text-xl font-satoshi text-black"> Elevate your tech journey and join our dynamic community. where individuals of all 
+                <br/>experience levels are welcomed and embraced </p>
+              </div>
+      
+        <div className="container overflow-y-scroll no-scrollbar mx-auto md:gap-6 md:grid-cols-[400px_400px_400px_400px_400px_400px] sm:grid grid-cols-1  p-12 sm:gap-y-7 "> 
+        { datas && datas.map(({benefitDesc,membersBenefit,id}) => (
+          <div key={id} className="mt-10 lg:mt-0 bg-gray-100 rounded-3xl py-6 hover:bg-primary-200  hover:text-white">   
+           <h1  className="text-center text-xl font-satoshi font-bold py-4"> {membersBenefit}</h1>
+           <p className="text-center font-satoshi text-xl pb-9 px-6">{benefitDesc}</p>
+          </div>
+
+        ))
+      }
+          </div>
+          <div className=" mb-10 lg:mb-0 flex items-center justify-center sm:pb-12">
+          <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold text-white">    
+                   <a href="#" className="">Become a member</a>
+              </button>
+          </div>
+          
         </div>
       </div>
-    </section>
-  )
+    
+    )
 }
 
-export default Membership
+export default Header;
