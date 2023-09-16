@@ -5,7 +5,7 @@ function Header () {
         <div className="flex justify-center min-h-screen">
         <div className=" py-18">
                 <div className="text-center p-12">
-                <h1 className="text-5xl font-bold font-satoshi capitalize text-black p-6"> Who Can Benefit? </h1>
+                <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black p-2"> Who Can Benefit? </h1>
                 <div className="flex items-center justify-center ">
                
                 </div>
@@ -16,7 +16,7 @@ function Header () {
         <div className="container overflow-y-scroll no-scrollbar mx-auto md:gap-6 md:grid-cols-[400px_400px_400px_400px_400px_400px] sm:grid grid-cols-1  p-12 sm:gap-y-7 "> 
         { datas && datas.map(({benefitDesc,membersBenefit,id}) => (
           <div key={id} className="mt-10 lg:mt-0 bg-gray-100 rounded-3xl py-6 hover:bg-primary-200  hover:text-white">   
-           <h1  className="text-center text-2xl font-satoshi font-bold py-4"> {membersBenefit}</h1>
+           <h1  className="text-center text-xl font-satoshi font-bold py-4"> {membersBenefit}</h1>
            <p className="text-center font-satoshi text-xl pb-9 px-6">{benefitDesc}</p>
           </div>
 

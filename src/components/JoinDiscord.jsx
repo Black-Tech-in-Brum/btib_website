@@ -1,14 +1,21 @@
+import { ReactComponent as Scribble} from "@assets/icons/scribbleJoinDiscord.svg";
+
 function JoinDiscord() {
   return (
     <section className="flex justify-center bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 sm:px-24 pb-2 py-32">
     
-        <div className="px-60">
-          <h1 className="text-center text-5xl font-bold font-satoshi capitalize text-white p-6">
+        <div className="px-0 lg:px-60">
+          <h1 className="text-center text-3xl lg:text-5xl font-bold font-satoshi capitalize text-white p-6">
             Join discord!
           </h1>
-          <p className="text-center max-w-2xl mb-6 font-light ">
-            Join our vibrant community on Discord! <br/>
-            the ultimate hub to stay updated on our latest news and exciting <br/> opportunities
+          <div className="flex items-center justify-center "> 
+        <Scribble/>
+          </div>
+         
+          <p className="text-center text-lg lg:text-xl max-w-2xl mb-6 font-light lg:flex flex-col px-2 lg:px-0 ">
+            <span>Join our vibrant community on Discord!</span>
+            <span> the ultimate hub to stay updated on our latest news </span>
+           <span> and exciting opportunities</span>
           </p>
           
           <div className="flex items-center justify-center pb-24">
