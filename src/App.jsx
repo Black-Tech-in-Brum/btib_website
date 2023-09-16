@@ -17,7 +17,6 @@ export default function App() {
       <Membership />
       <JoinDiscord />
       <Event />
-    
       <ContactUs />
       <Footer />
     </div>
