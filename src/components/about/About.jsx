@@ -43,11 +43,9 @@ function About() {
       { isshow == "HowIsStarted" &&
        <div className="flex justify-center py-10 md:px-40 ">
         <div className="bg-gray-100 rounded-3xl p-20">
-        <h1 className="text-align-left md:text-4xl font-satoshi font-bold py-4 sm:text-3xl ">How is started...</h1>
-        <Scribble/>
-          {/* <svg className="w-1/3 lg:w-auto lg:h-[23px]" viewBox="0 0 181 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1.10376 8.59143C24.4553 5.80379 109.568 -0.928002 179.549 2.70241C143.325 3.8979 96.1466 6.05548 65.9637 13.3088" stroke="#2235b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg> */}
+        <h1 className="text-align-left md:text-4xl font-satoshi font-bold sm:text-3xl ">How is started...</h1>
+        <Scribble className="w-1/3 lg:w-auto lg:h-[23px]"/>
+         
        
       { datas && datas.map(({aboutImgOne, id, aboutImgDescOne}) => (
         <div key={id} className="md:grid-cols-2 sm:grid grid-cols-1 gap-10 rounded-3xl justify-items-center ">
