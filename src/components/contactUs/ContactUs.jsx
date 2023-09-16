@@ -3,7 +3,7 @@ function ContactUs() {
   const hideLabel = (event) => event.target.previousSibling.classList.add("hidden")
   const showLabel = (event) => event.target.previousSibling.classList.remove("hidden")
   return (
-    <section className="my-6 md:my-10 px-5">
+    <section className="my-6 md:my-10 px-5" id="contact">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="font-atype md:font-atype -tracking-[2%] text-4xl md:text-5/4xl font-semibold">Contact Us</h2>
         <p className="my-5 md:text-lg font-satoshi">{`If you have any inquiries or require additional details, please don't hesitate to reach out to us using the form provided below.`}</p>

@@ -12,7 +12,7 @@ function About() {
 
 
   return (
-    <section className="bg-white w-screen">
+    <section className="bg-white w-screen" id="about">
       <div className="py-18">
       <div className="text-center">
         <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black py-12 pt-24">About Us</h1>

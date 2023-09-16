@@ -4,7 +4,7 @@ function Event() {
   
   return (
 
-<div className="flex justify-center min-h-screen">
+<div className="flex justify-center min-h-screen" id="events">
 <div className=" py-18">
         <div className="text-center p-12">
         <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black p-6"> Upcoming Events </h1>

@@ -2,7 +2,7 @@ import datas from "../data/data.json"
 
 function Header () {
     return (
-        <div className="flex justify-center min-h-screen">
+        <div className="flex justify-center min-h-screen" id="whoCanBenefit">
         <div className=" py-18">
                 <div className="text-center p-12">
                 <h1 className="text-3xl lg:text-5xl font-bold font-satoshi capitalize text-black p-2"> Who Can Benefit? </h1>
