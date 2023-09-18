@@ -4,6 +4,7 @@ import {
 import { ReactComponent as Discord } from '@assets/icons/discord-large.svg'
 import { ReactComponent as LinkedIn } from '@assets/icons/linkedin-large.svg'
 import { ReactComponent as Scribble } from '@assets/icons/scribble.svg'
+import { HashLink as Link} from 'react-router-hash-link';
 
 function Footer() {
   return (
@@ -14,14 +15,14 @@ function Footer() {
         </h2>
         <Scribble className="-ml-2 h-[0.875rem]" aria-hidden="true" />
       </div>
-      <a
-        href="#header"
+      <Link
+        to="#header"
         aria-label="Back to top"
         className="mx-auto mt-9 md:m-0 text-center font-satoshi text-xxs md:text-xs"
-      >
+      smooth>
         <CircleArrowUp className="mb-2" />
         <span>Back to top</span>
-      </a>
+      </Link>
       <p className="order-first mt-4 w-full font-atype text-2xl md:order-none md:w-1/2 md:text-5/2xl md:mr-48 md:mb-10">
         Black Tech in Brum fosters empowerment and support for all Black
         individuals in the tech industry, ranging from newcomers to
@@ -32,7 +33,7 @@ function Footer() {
         reserved.
       </p>
       <div className="mt-12 flex w-full items-center justify-center gap-8 md:w-auto md:gap-4 md:m-0">
-        <a href="#discord" aria-label="Join us on Discord">
+        <a href="https://discord.gg/6fwRfARU4U" aria-label="Join us on Discord">
           <Discord className="box-content p-2 md:p-0 text-neutral-100" />
         </a>
         <a href="#linkedin" aria-label="Follow us on LinkedIn">
