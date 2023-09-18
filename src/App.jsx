@@ -1,10 +1,10 @@
-import Navbar from './components/navbar'
-import Footer from './components/footer'
-import Header from './components/Header'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/Footer/Footer'
+import Header from './components/header/Header'
 import About from './components/about/About'
-import Event from './components/Event'
-import Membership from './components/Membership'
-import JoinDiscord from './components/JoinDiscord'
+import Event from './components/event/Event'
+import Membership from './components/membership/Membership'
+import JoinDiscord from './components/joinDiscord/JoinDiscord'
 import ContactUs from './components/contactUs/ContactUs'
 
 
