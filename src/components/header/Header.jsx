@@ -1,12 +1,12 @@
 import { ReactComponent as Scribble} from "@assets/icons/scribbleHeader.svg";
+import { HashLink as Link} from 'react-router-hash-link';
 
-
-import datas from "../data/data.json"
+import datas from "../../data/data.json"
 
 function Header () {
 
     return (
-        <header className="flex justify-center bg-blue-600 items-center w-auto lg:w-screen bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 pt-12 pb-2 ">
+        <header id="header" className="flex justify-center bg-blue-600 items-center w-auto lg:w-screen bg-noise-gradient bg-secondary-300 bg-blend-hard-light bg-full text-neutral-100 pt-12 pb-2 ">
         <div className="mt-[80px] lg:mt-0">
                 <div className="text-center">
                 <h1 className="text-3xl lg:text-6xl font-bold font-satoshi capitalize text-white"> Black Tech in Brum </h1>
@@ -29,10 +29,10 @@ function Header () {
         ))
       }
           </div>
-          <div className="flex items-center justify-center py-12">
-          <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold ">    
-                   <a href="#" className="">Learn More</a>
-              </button>
+          <div className="flex items-center justify-center py-10 ">
+          <Link to="#about" className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold ">    
+                   <a className="">Learn More</a>
+              </Link>
           </div>
           
         </div>

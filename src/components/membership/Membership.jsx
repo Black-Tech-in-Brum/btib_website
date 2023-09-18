@@ -1,4 +1,4 @@
-import datas from "../data/data.json"
+import datas from "../../data/data.json"
 
 function Header () {
     return (
@@ -25,7 +25,7 @@ function Header () {
           </div>
           <div className=" mb-10 lg:mb-0 flex items-center justify-center sm:pb-12">
           <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold text-white">    
-                   <a href="#" className="">Become a member</a>
+                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfihXvQunDbCUG0JnA73rl7EF5VTAUkG5JZpO_UtcYL9Lvz6g/viewform?usp=send_form" className="">Become a member</a>
               </button>
           </div>
           

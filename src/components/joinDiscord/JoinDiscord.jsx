@@ -20,7 +20,7 @@ function JoinDiscord() {
           
           <div className="flex items-center justify-center pb-24">
           <button className=" mt-10 block rounded-lg bg-primary-200  px-12 py-3 font-satoshi font-bold text-white ">    
-                   <a href="#" className="">Join Discord</a>
+                   <a href="https://discord.gg/6fwRfARU4U" className="">Join Discord</a>
               </button>
           </div>
          

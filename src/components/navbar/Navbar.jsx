@@ -8,7 +8,6 @@ import { ReactComponent as Discord } from '@assets/icons/discord.svg'
 
 function Navbar() {
   const [navDisplay, setNavDisplay] = useState(false)
-  // const links = []
   return (
     <nav
       className={`shadow-overlap fixed z-50 flex justify-between bg-white shadow md:relative md:px-24 ${
@@ -82,9 +81,9 @@ function Navbar() {
             
             </Link>
           </li>
-        <Link to="/becomeAMember" className="mx-auto mt-10 block rounded-lg bg-primary-200 px-4 py-3 font-satoshi font-bold text-neutral-100 hover:bg-primary-100 focus-visible:bg-primary-100 md:mt-0">
-          Become a Member
-        </Link>
+        <button to="" className="mx-auto mt-10 block rounded-lg bg-primary-200 px-4 py-3 font-satoshi font-bold text-neutral-100 hover:bg-primary-100 focus-visible:bg-primary-100 md:mt-0">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfihXvQunDbCUG0JnA73rl7EF5VTAUkG5JZpO_UtcYL9Lvz6g/viewform?usp=send_form">Become a Member</a>
+        </button>
       </ul>
 
       
